@@ -1,4 +1,4 @@
-import styled, { css } from "styled-components";
+import styledComponent, { css } from "styled-components";
 
 const sizes = {
   small: css`
@@ -47,3 +47,15 @@ const variations = {
     }
   `,
 };
+const Button = styledComponent.button`
+
+  
+  border-radius: var(--border-radius-sm);
+  border: none;
+  box-shadow: var(--shadow-sm);
+  
+  ${(props) => sizes[props.size]}
+  ${(props) => variations[props.variation]}
+`;
+
+export default Button;

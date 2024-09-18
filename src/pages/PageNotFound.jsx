@@ -1,9 +1,9 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
 import { useMoveBack } from "../hooks/useMoveBack";
-import Heading from "../ui/Heading";
+import Heading from "../ui/Heading.jsx";
 
-const StyledPageNotFound = styled.main`
+const StyledPageNotFound = styledComponent.main`
   height: 100vh;
   background-color: var(--color-grey-50);
   display: flex;
@@ -12,7 +12,7 @@ const StyledPageNotFound = styled.main`
   padding: 4.8rem;
 `;
 
-const Box = styled.div`
+const Box = styledComponent.div`
   /* box */
   background-color: var(--color-grey-0);
   border: 1px solid var(--color-grey-100);
