@@ -1,10 +1,10 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const StyledLogo = styled.div`
+const StyledLogo = styledComponent.div`
   text-align: center;
 `;
 
-const Img = styled.img`
+const Img = styledComponent.img`
   height: 9.6rem;
   width: auto;
 `;
