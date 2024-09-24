@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const StyledCheckbox = styled.div`
+const StyledCheckbox = styledComponent.div`
   display: flex;
   gap: 1.6rem;
 

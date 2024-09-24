@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const StyledPagination = styled.div`
+const StyledPagination = styledComponent.div`
   width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;
 `;
 
-const P = styled.p`
+const P = styledComponent.p`
   font-size: 1.4rem;
   margin-left: 0.8rem;
 
@@ -16,12 +16,12 @@ const P = styled.p`
   }
 `;
 
-const Buttons = styled.div`
+const Buttons = styledComponent.div`
   display: flex;
   gap: 0.6rem;
 `;
 
-const PaginationButton = styled.button`
+const PaginationButton = styledComponent.button`
   background-color: ${(props) =>
     props.active ? " var(--color-brand-600)" : "var(--color-grey-50)"};
   color: ${(props) => (props.active ? " var(--color-brand-50)" : "inherit")};

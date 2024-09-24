@@ -1,13 +1,13 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const StyledDataItem = styled.div`
+const StyledDataItem = styledComponent.div`
   display: flex;
   align-items: center;
   gap: 1.6rem;
   padding: 0.8rem 0;
 `;
 
-const Label = styled.span`
+const Label = styledComponent.span`
   display: flex;
   align-items: center;
   gap: 0.8rem;

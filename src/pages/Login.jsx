@@ -1,4 +1,5 @@
 import styledComponent from "styled-components";
+
 const LoginLayout = styledComponent.main`
   min-height: 100vh;
   display: grid;

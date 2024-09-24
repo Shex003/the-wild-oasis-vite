@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const FileInput = styled.input`
+const FileInput = styledComponent.input`
   font-size: 1.4rem;
   border-radius: var(--border-radius-sm);
 

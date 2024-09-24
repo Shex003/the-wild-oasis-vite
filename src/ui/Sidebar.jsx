@@ -1,5 +1,4 @@
 import styledComponent from "styled-components";
-
 import Logo from "./Logo.jsx";
 import MainNav from "./MainNav.jsx";
 

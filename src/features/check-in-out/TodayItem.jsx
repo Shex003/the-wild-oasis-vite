@@ -1,6 +1,6 @@
-import styled from "styled-components";
+import styledComponent from "styled-components";
 
-const StyledTodayItem = styled.li`
+const StyledTodayItem = styledComponent.li`
   display: grid;
   grid-template-columns: 9rem 2rem 1fr 7rem 9rem;
   gap: 1.2rem;
@@ -15,6 +15,6 @@ const StyledTodayItem = styled.li`
   }
 `;
 
-const Guest = styled.div`
+const Guest = styledComponent.div`
   font-weight: 500;
 `;

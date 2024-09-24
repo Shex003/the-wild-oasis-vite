@@ -1,13 +1,14 @@
 import styledComponent, { css } from "styled-components";
 
 const Row = styledComponent.div`
-display: flex;
-${(props) =>
-  props.type === "horizontal" &&
-  css`
-    justify-content: space-between;
-    align-items: center;
-  `}
+ display: flex;
+
+  ${(props) =>
+    props.type === "horizontal" &&
+    css`
+      justify-content: space-between;
+      align-items: center;
+    `}
 
   ${(props) =>
     props.type === "vertical" &&
@@ -16,5 +17,9 @@ ${(props) =>
       gap: 1.6rem;
     `}
 `;
+
+Row.defaultProps = {
+  type: "vertical",
+};
 
 export default Row;

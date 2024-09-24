@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styledComponent from "styled-components";
 
-const TableOperations = styled.div`
+const TableOperations = styledComponent.div`
   display: flex;
   align-items: center;
   gap: 1.6rem;

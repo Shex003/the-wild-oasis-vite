@@ -1,6 +1,6 @@
-import styled from 'styled-components';
+import styledComponent from "styled-components";
 
-const ButtonGroup = styled.div`
+const ButtonGroup = styledComponent.div`
   display: flex;
   gap: 1.2rem;
   justify-content: flex-end;
